@@ -51,5 +51,3 @@ elif pts >= 40:
     print("your password is weak 🔴")
 elif pts < 40:
     print("your password is very weak 🔴")
-
-print(pts)
