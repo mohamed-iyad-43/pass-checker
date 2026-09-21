@@ -51,3 +51,11 @@ elif pts >= 40:
     print("your password is weak 🔴")
 elif pts < 40:
     print("your password is very weak 🔴")
+
+import requests
+
+url = "https://github.com/danielmiessler/SecLists/blob/master/Passwords/Default-Credentials/default-passwords.txt"
+passwords = requests.get(url).text
+
+if password in passwords:
+    print("This password used, please change it")
