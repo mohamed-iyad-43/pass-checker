@@ -40,9 +40,5 @@ This project is open-source and available under the MIT License.
 - Open terminal
 - Write this command:
   ```bash
-
-
-sudo pip3 install requests  
-
-
+sudo pip3 install requests
 ```
